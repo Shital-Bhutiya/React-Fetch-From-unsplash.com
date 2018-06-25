@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+ul{
+  list-style-type: none;
+}
+p{
+  color:red;
+}
+img{
+  border:1px solid rgb(186, 181, 181);
+  box-shadow: 1px 1px 10px grey;
+  margin:10px;
+  padding: 10px;
+}
+label{
+  display: block;
+  margin:10px;
+}
