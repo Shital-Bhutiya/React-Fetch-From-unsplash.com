@@ -1,5 +1,5 @@
 # React with fetch
-This project demonstrate the usage of fetch api with react. I have create a form where user can search any type of images. This images are coming from anther website which is `[unsplash.com](https://unsplash.com/)`
+This project demonstrate the usage of fetch api with react. I have create a form where user can search any type of images. This images are coming from anther website which is [unsplash.com](https://unsplash.com/)
 
 ### Form 
 
@@ -14,3 +14,22 @@ There is an image wich is coming from unsplash api on every load of the browser.
 
 ## External Source
 [unsplash.com](https://unsplash.com/) 
+
+
+## Installation
+
+ To lunch this app 
++ clone this project from above green button or you can type the command below into your git terminal.
+
+    `$ git clone https://github.com/ShitalSB/Shopping-cart-React.git Shopping-cart`
+
++ Go into the shopping cart
+
+    `$ cd Shopping-cart/`
++ Install npm
+    
+    `$ npm install`
+
++ Start the npm
+
+  `$ npm start`
