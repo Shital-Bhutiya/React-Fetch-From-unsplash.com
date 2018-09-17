@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-
+import Button from '@material-ui/core/Button';
+import Input from '@material-ui/core/Input';
+import Select from '@material-ui/core/Select';
 class Form extends Component {
   render() {
     return (
@@ -9,7 +11,7 @@ class Form extends Component {
 
         <label>
           Text:
-          <input
+          <Input
             name="query"
             type="text"
             onChange={this.props.handleInput}
@@ -19,7 +21,7 @@ class Form extends Component {
 
         <label>
           Number Of Photos:
-          <select
+          <Select
             name="number"
             onChange={this.props.handleInput}
             value={this.props.number}
@@ -27,12 +29,12 @@ class Form extends Component {
             <option value="5">5</option>
             <option value="10">10</option>
             <option value="15">15</option>
-          </select>
+          </Select>
         </label>
 
         <label>
           Orientation:
-          <select
+          <Select
             name="orientation"
             onChange={this.props.handleInput}
             value={this.props.orientation}
@@ -41,9 +43,9 @@ class Form extends Component {
             <option value="portrait">portrait</option>
             <option value="squarish">squarish</option>
             <option value="all">all</option>
-          </select>
+          </Select>
         </label>
-        <button onClick={this.props.searchPhotos}>Search</button>
+        <Button variant="contained" color="secondary" onClick={this.props.searchPhotos}>Search</Button>
       </form>
     );
   }
